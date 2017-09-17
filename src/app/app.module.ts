@@ -4,10 +4,12 @@ import { NgModule } from '@angular/core';
 import {FlexLayoutModule} from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
+import { CellComponent } from './cell/cell.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CellComponent
   ],
   imports: [
     BrowserModule,

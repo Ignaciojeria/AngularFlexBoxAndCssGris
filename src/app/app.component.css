@@ -1,5 +1,34 @@
-main{
+.mainLayout{
     height: 400px;
-    width: 400px;
-    background-color: darkolivegreen;
+    width: 550px;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border-top: solid cadetblue;
+    border-right: solid cadetblue;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-left: solid cadetblue;
+    border-block-end: solid cadetblue;
+}
+
+.area1{
+background-color: blueviolet;
+}
+
+.area2{
+    background-color: cadetblue;
+}
+
+.area3{
+    background-color: coral;
+}
+
+.area4{
+    background-color: crimson;
 }
