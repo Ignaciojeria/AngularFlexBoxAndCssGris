@@ -1,8 +1,9 @@
 
+<button (click)="add2inRamdomCell()">Ramdom</button>
 <div class="mainLayout" >
   <ng-container *ngFor=" let row of state |async; let i=index;">
     <section *ngFor=" let tile of row; let z=index;">
-        celda
+      {{state.value[i][z]}}
     </section>
   </ng-container>
 </div>
